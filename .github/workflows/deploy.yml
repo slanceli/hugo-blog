@@ -43,4 +43,4 @@ jobs:
           key: ${{ secrets.SERVER_PRIVATE_KEY }}
           port: 22
           script: |
-            sudo ./home/opc/deploy_hugo.sh
+            sudo /bin/bash  /home/opc/deploy_hugo.sh
