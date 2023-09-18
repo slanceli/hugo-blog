@@ -2,6 +2,14 @@
 title: "golang业务中优化MySQL分页查询"
 date: 2023-09-18T14:12:10+08:00
 draft: fasle
+categories:
+    - gorm
+    - golang
+tags:
+    - gorm
+    - golang
+    - mysql
+    - 分页查询
 ---
 
 当在golang业务中使用MySQL分页查询时，LIMIT子句的效率会随着数据量的增加而降低。在本文中，我将记录上次查询结束位置的方法来优化MySQL分页查询。
